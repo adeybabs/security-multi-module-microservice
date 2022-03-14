@@ -2,34 +2,43 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="resource-server" />
         <module name="report-ms" />
-        <module name="core-ms" />
-        <module name="workflow-ms" />
+        <module name="core" />
+        <module name="workflow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="core-ms" target="11" />
+      <module name="core" target="1.8" />
+      <module name="core-ms" target="1.8" />
+      <module name="demo" target="11" />
       <module name="Report" target="11" />
       <module name="report" target="11" />
-      <module name="report-ms" target="11" />
-      <module name="resource-server" target="11" />
+      <module name="report-ms" target="1.8" />
+      <module name="resource-server" target="1.8" />
       <module name="security-ms" target="1.8" />
-      <module name="workflow-ms" target="11" />
+      <module name="workflow" target="1.8" />
+      <module name="workflow-ms" target="1.8" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Report" options="-parameters" />
+      <module name="core" options="-parameters" />
       <module name="core-ms" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="report" options="-parameters" />
       <module name="report-ms" options="-parameters" />
       <module name="resource-server" options="-parameters" />
       <module name="security-ms" options="-parameters" />
+      <module name="workflow" options="-parameters" />
       <module name="workflow-ms" options="-parameters" />
     </option>
   </component>

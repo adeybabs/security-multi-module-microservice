@@ -2,8 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/security-ms/core-ms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-ms/core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-ms/report-ms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-ms/resource-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/security-ms/workflow-ms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-ms/workflow/src/main/java" charset="UTF-8" />
   </component>
 </project>
