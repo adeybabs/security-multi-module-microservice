@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/security-ms/core-ms/core-ms.iml" filepath="$PROJECT_DIR$/security-ms/core-ms/core-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-ms/core/core.iml" filepath="$PROJECT_DIR$/security-ms/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-ms/report-ms/report-ms.iml" filepath="$PROJECT_DIR$/security-ms/report-ms/report-ms.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-ms/resource-server/resource-server.iml" filepath="$PROJECT_DIR$/security-ms/resource-server/resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-ms/security-ms.iml" filepath="$PROJECT_DIR$/security-ms/security-ms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security-ms/workflow-ms/workflow-ms.iml" filepath="$PROJECT_DIR$/security-ms/workflow-ms/workflow-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-ms/workflow/workflow.iml" filepath="$PROJECT_DIR$/security-ms/workflow/workflow.iml" />
     </modules>
   </component>
 </project>
